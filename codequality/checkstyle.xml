@@ -55,12 +55,6 @@
           <property name="scope" value="package"/>
           <property name="allowMissingParamTags" value="true"/>
           <property name="allowMissingReturnTag" value="true"/>
-          <!--
-          <property name="allowMissingThrowsTags" value="true"/>
-          <property name="allowThrowsTagsForSubclasses" value="true"/>
-          <property name="allowUndeclaredRTE" value="true"/>
-          <property name="allowMissingPropertyJavadoc" value="true"/>
-          -->
         </module>
         <module name="MissingJavadocMethod">
           <property name="allowMissingPropertyJavadoc" value="true"/>
@@ -147,14 +141,6 @@
           <property name="severity" value="warning"/>
         </module>
         <module name="MissingSwitchDefault"/>
-        <!-- Problem with finding exception types... -->
-        <!-- RedundantThrows was removed with version 6.2
-        <module name="RedundantThrows">
-          <property name="allowUnchecked" value="true"/>
-          <property name="suppressLoadErrors" value="true"/>
-          <property name="severity" value="info"/>
-        </module>
-        -->
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
 
@@ -176,10 +162,6 @@
           <property name="severity" value="info"/>
         </module>
         <module name="UpperEll"/>
-
-        <!-- FileContentsHolder was removed with version 8.2
-        <module name="FileContentsHolder"/>
-        -->
 
         <!-- Enable suppression comments -->
         <module name="SuppressionCommentFilter">
