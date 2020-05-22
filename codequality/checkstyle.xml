@@ -46,12 +46,15 @@
         <module name="JavadocMethod">
           <property name="scope" value="package"/>
           <property name="allowMissingParamTags" value="true"/>
-          <property name="allowMissingThrowsTags" value="true"/>
           <property name="allowMissingReturnTag" value="true"/>
+          <!--
+          <property name="allowMissingThrowsTags" value="true"/>
           <property name="allowThrowsTagsForSubclasses" value="true"/>
           <property name="allowUndeclaredRTE" value="true"/>
+          <property name="allowMissingPropertyJavadoc" value="true"/>
+          -->
         </module>
-        <module name="MissingJavadocMethodCheck">
+        <module name="MissingJavadocMethod">
           <property name="allowMissingPropertyJavadoc" value="true"/>
         </module>
         <module name="JavadocType">
