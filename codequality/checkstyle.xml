@@ -177,7 +177,9 @@
         </module>
         <module name="UpperEll"/>
 
-        <module name="FileContentsHolder"/> <!-- Required by comment suppression filters -->
+        <!-- FileContentsHolder was removed with version 8.2
+        <module name="FileContentsHolder"/>
+        -->
 
     </module>
 
