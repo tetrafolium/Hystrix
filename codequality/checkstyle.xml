@@ -148,11 +148,13 @@
         </module>
         <module name="MissingSwitchDefault"/>
         <!-- Problem with finding exception types... -->
+        <!-- RedundantThrows was removed with version 6.2
         <module name="RedundantThrows">
           <property name="allowUnchecked" value="true"/>
           <property name="suppressLoadErrors" value="true"/>
           <property name="severity" value="info"/>
         </module>
+        -->
         <module name="SimplifyBooleanExpression"/>
         <module name="SimplifyBooleanReturn"/>
 
